@@ -1,533 +1,678 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="ISO-8859-1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8">
 <title>Miriam Bade Resume</title>
 
-<!-- Font -->
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Responsive Resume Template">
+<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+<link rel="shortcut icon" href="favicon.ico">
 
-<!-- Stylesheets -->
-<link href="common-css/principal.css" rel="stylesheet">
+<!-- Google Font -->
+<link
+	href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900"
+	rel="stylesheet">
 
-<link href="common-css/bootstrap.css" rel="stylesheet">
+<!-- FontAwesome JS-->
+<script defer
+	src="https://use.fontawesome.com/releases/v5.1.1/js/all.js"
+	integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+	crossorigin="anonymous"></script>
 
-<link href="common-css/ionicons.css" rel="stylesheet">
+<!-- Theme CSS -->
+<link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
 
-<link href="common-css/fluidbox.min.css" rel="stylesheet">
 
-<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
-
-<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
 </head>
+
 <body>
 
-	<div id="home">
-		<header>
-
-			<div class="container" id="home">
-				<div class="heading-wrapper">
-
-					<div class="row">
-						<div class="col-sm-6 col-md-6 col-lg-4">
-							<div class="info">
-								<i class="icon ion-ios-location-outline"></i>
-								<div class="right-area">
-									<h5>1310 5th Ave N</h5>
-									<h5>Great Falls, MT 59401</h5>
-								</div>
-								<!-- right-area -->
-							</div>
-							<!-- info -->
-						</div>
-						<!-- col-sm-4 -->
-
-						<div class="col-sm-6 col-md-6 col-lg-4">
-							<div class="info">
-								<i class="icon ion-ios-telephone-outline"></i>
-								<div class="right-area">
-									<h5>406-475-5206</h5>
-									<h6>MON - FRI,2PM - 3PM MT</h6>
-								</div>
-								<!-- right-area -->
-							</div>
-							<!-- info -->
-						</div>
-						<!-- col-sm-4 -->
-
-						<div class="col-sm-6 col-md-6 col-lg-4">
-							<div class="info">
-								<i class="icon ion-ios-chatboxes-outline"></i>
-								<div class="right-area">
-									<h5>yukinomiriam@gmail.com</h5>
-									<h6>REPLY IN 24 HOURS</h6>
-								</div>
-								<!-- right-area -->
-							</div>
-							<!-- info -->
-						</div>
-						<!-- col-sm-4 -->
-					</div>
-					<!-- row -->
-				</div>
-				<!-- heading-wrapper -->
-				<a class="downlad-btn" href="files/Miriam Bade Resume.pdf"
-					target="_blank">View Resume</a>
-			</div>
-			<!-- container -->
-		</header>
-
-		<section class="intro-section">
-
-			<div class="container">
-				<div class="row">
-					<div class="col-md-1 col-lg-2"></div>
-					<div class="col-md-10 col-lg-8">
-						<div class="intro">
-							<div class="profile-img">
-								<img src="images/new/miriam_bade.jpeg" alt="">
-							</div>
-							<h2 style="font-family: Garamond;">
-								<b>Miriam Bade</b>
-							</h2>
-							<h4 class="font-purple">Solutions Engineer</h4>
-							<ul class="information margin-tb-30">
-								<li><b>BORN : </b>December 14, 1985</li>
-								<li><b>EMAIL : </b>yukinomiriam@gmail.com</li>
-								<li><b>MARITAL STATUS : </b>Married</li>
-								<li><b>SPONSORSHIP : </b>Not Required</li>
-							</ul>
-							<ul class="social-icons">
-								<!--<li><a href="#"><i class="ion-social-pinterest"></i></a></li>-->
-								<li><a href="https://www.linkedin.com/in/miriam-bade/"
-									target="_blank"><i class="ion-social-linkedin"></i></a></li>
-								<li><a href="https://www.instagram.com/yukinomiriam/"
-									target="_blank"><i class="ion-social-instagram"></i></a></li>
-								<li><a href="https://www.facebook.com/Yukinomiri"
-									target="_blank"><i class="ion-social-facebook"></i></a></li>
-								<li><a href="https://twitter.com/yukinomiri"
-									target="_blank"><i class="ion-social-twitter"></i></a></li>
+	<article class="resume-wrapper text-center position-relative">
+		<div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
+			<header class="resume-header pt-4 pt-md-0">
+				<div class="media flex-column flex-md-row">
+					<img class="mr-3 img-fluid picture mx-auto"
+						src="images/new/miriam_bade.jpeg" alt="">
+					<div
+						class="media-body p-4 d-flex flex-column flex-md-row mx-auto mx-lg-0">
+						<div class="primary-info">
+							<h1
+								class="name mt-0 mb-1 text-white text-uppercase text-uppercase">Miriam
+								Bade</h1>
+							<div class="title mb-3">Software Engineer</div>
+							<ul class="list-unstyled">
+								<li class="mb-2"><a href="#"><i
+										class="far fa-envelope fa-fw mr-2" data-fa-transform="grow-3"></i>yukinomiriam@gmail.com</a></li>
+								<li><a href="#"><i class="fas fa-mobile-alt fa-fw mr-2"
+										data-fa-transform="grow-6"></i>406-475-5206</a></li>
 							</ul>
 						</div>
-						<!-- intro -->
-					</div>
-					<!-- col-sm-8 -->
-				</div>
-				<!-- row -->
-			</div>
-			<!-- container -->
-		</section>
-		<!-- intro-section -->
-	</div>
-	<!-- home -->
-
-	<div id="about">
-		<section class="about-section section">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="heading">
-							<h3 style="font-family: Garamond;">
-								<b>About me</b>
-							</h3>
-							<h6 class="font-lite-black">
-								<b>PROFESSIONAL PATH</b>
-							</h6>
+						<!--//primary-info-->
+						<div class="secondary-info ml-md-auto mt-2">
+							<ul class="resume-social list-unstyled">
+								<li class="mb-3"><a
+									href="https://www.linkedin.com/in/miriam-bade/" target="_blank"><span
+										class="fa-container text-center mr-2"><i
+											class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/miriam-bade/</a></li>
+								<li class="mb-3"><a href="https://github.com/yukinomiriam"
+									target="_blank"><span class="fa-container text-center mr-2"><i
+											class="fab fa-github-alt fa-fw"></i></span>github.com/yukinomiriam</a></li>
+								<li><a href="files/Miriam Bade Resume.pdf" target="_blank"><span
+										class="fa-container text-center mr-2"><i
+											class="fas fa-file-pdf fa-fw"></i></span>View Resume</a></li>
+							</ul>
 						</div>
+						<!--//secondary-info-->
+
 					</div>
-					<!-- col-sm-4 -->
-					<div class="col-sm-8">
-						<p class="margin-t-10 main-font">Hello there!!</p>
-						<p class="margin-t-10 main-font">I am Miriam Bade and I am 32
+					<!--//media-body-->
+				</div>
+				<!--//media-->
+			</header>
+			<div class="resume-body p-5">
+				<section class="resume-section summary-section mb-5">
+					<h2
+						class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career
+						Summary</h2>
+					<div class="resume-section-content">
+						<p class="mb-0" align="justify">I am Miriam Bade and I am 32
 							years old. Currently I am a stay-at-home mom of a 10 month old
 							baby girl and I am trying to go back to the working life as a
 							Software Developer. I have 9 years of experience working in Java
 							Enterprise Projects performing activities of: analysis,
 							development, testing, deployment, and software debugging .</p>
-						
-
-
 					</div>
-					<!-- col-sm-8 -->
-				</div>
-				<!-- row -->
-			</div>
-			<!-- container -->
-		</section>
-		<!-- about-section -->
-	</div>
-
-	<div id="experience" class="border">
-		<section class="experience-section section">
-			<div class="container">
+				</section>
+				<!--//summary-section-->
 				<div class="row">
-					<div class="col-sm-4">
-						<div class="heading">
-							<h3 style="font-family: Garamond;">
-								<b>Work Experience</b>
-							</h3>
-							<h6 class="font-lite-black">
-								<b>PREVIOUS JOBS</b>
-							</h6>
-						</div>
-					</div>
-					<!-- col-sm-4 -->
-					<div class="col-sm-8">
+					<div class="col-lg-9">
+						<section class="resume-section experience-section mb-5">
+							<h2
+								class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work
+								Experience</h2>
+							<div class="resume-section-content">
+								<div class="resume-timeline position-relative">
+									<article class="resume-timeline-item position-relative pb-5">
 
-						<div class="experience margin-b-50">
-							<h4>
-								<b>SOLUTIONS ENGINEER</b>
-							</h4>
-							<h5 class="font-purple">
-								<b>DELOITTE LLP - BISMARCK, ND</b>
-							</h5>
-							<h6 class="margin-t-10 main-font">JUNE 2016 - SEPTEMBER 2017</h6>
-							<p class="main-font margin-tb-30">
-								<a class="underlined"
-									href="https://www.nd.gov/dhs/eligibility/index.html"
-									target="_blank"> North Dakota Department of Human Services.
-								</a>
-							</p>
-							<p class="main-font margin-tb-30">The Integrated Eligibility
-								System is a Java WEB based application that allows to the state
-								of North Dakota to receive, maintain and close Medicaid benefits
-								for all those individuals that apply to request medical
-								assistance. This system works in conjunction with the Self
-								Service Portal</p>
-							<p class="main-font margin-tb-30">
-								The <a class="underlined" href="https://dhsbenefits.dhs.nd.gov/"
-									target="_blank"> Self Service Portal (SSP) </a> is a Java WEB
-								system that allows to the North Dakota Residents to apply for
-								assistance on Medicaid and Presumptive Eligibility completing
-								their application online instead of going to a government office
-								and request for assistance.
-							</p>
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Solutions
+													Engineer</h3>
+												<div class="resume-company-name ml-auto">Deloitte LLP
+													- BISMARCK, ND</div>
+											</div>
+											<!--//row-->
+											<div class="resume-position-time">JUNE 2016 - SEPTEMBER
+												2017</div>
+										</div>
+										<!--//resume-timeline-item-header-->
+										<div class="resume-timeline-item-desc">
+											<p align="justify">Java Developer assigned to the
+												Maintenance and Operations team as part of the tracks:
+												SelfService Portal and Font Office performing activities
+												such as design, analysis, development/fix , unit testing,
+												user acceptance testing and production support among other
+												things.</p>
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+											<!--<p>Praesentium voluptatum deleniti atque corrupti quos
+												dolores et quas molestias excepturi sint occaecati
+												cupiditate non provident.</p>-->
+											<ul>
+												<li>Collaborated in a team-based, Agile environment to
+													accomplish objectives in a measured and open manner.</li>
+												<li>Performed 4 on-site training sessions for
+													client-side developers to maximize productivity.</li>
+												<li>Collaborated with clients from concept through
+													final delivery of 3 enhancements.</li>
+												<li>Coordinated with off-shore team to confirm, develop
+													and test requirements and defects on daily calls.</li>
+												<li>Participated in requirements gathering and design
+													development meetings.</li>
+												<li>Performed troubleshooting, diagnostics and analysis
+													to uncover root malfunctions solving at least 1 issue per
+													day.</li>
+												<li>Consistently met deadlines and requirements for all
+													production work orders.</li>
+												<li>Completed at least 3 low level defects for every
+													biweekly release and 2 high level defects and enhancements
+													per monthly release.</li>
+											</ul>
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Technologies
+												used:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JAVA 7</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">EJB</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">WEBSPHERE</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JSP</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JAVASCRIPT</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">XML</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">ORACLE 12C</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">SVN</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JIRA</span></li>
+											</ul>
+										</div>
+										<!--//resume-timeline-item-desc-->
 
-						 <ul class="list main-font margin-b-30">
-							<li>Collaborated in a team-based, Agile environment to
-								accomplish objectives in a measured and open manner.</li>
-							<li>Performed 4 on-site training sessions for client-side
-								developers to maximize productivity.</li>
-							<li>Collaborated with clients from concept through final
-								delivery of 3 enhancements.</li>
+									</article>
+									<!--//resume-timeline-item-->
 
-							<li>Coordinated with off-shore team to confirm, develop and
-								test requirements and defects on daily calls.</li>
-							<li>Participated in requirements gathering and design
-								development meetings.</li>
-							<li>Performed troubleshooting, diagnostics and analysis to
-								uncover root malfunctions solving at least 1 issue per day.</li>
-							<li>Reviewed code and debugged errors to improve
-								performance.</li>
-							<li>Consistently meet deadlines and requirements for all
-								production work orders.</li>
-							<li>Provided a minimum of 3 data fixes per day.</li>
-							<li>Triaged at least 5 Help Desk Tickets per day.</li>
-							<li>Completed at least 3 low level defects for every
-								biweekly release and 2 high level defects and enhancements per
-								monthly release.</li>
-						</ul>
-						</div>
-						<!-- experience -->
+									<article class="resume-timeline-item position-relative pb-5">
 
-						<div class="experience margin-b-50">
-							<h4>
-								<b>IT CONSULTANT</b>
-							</h4>
-							<h5 class="font-purple">
-								<b>DELOITTE CONSULTING MEXICO - HELENA, MT</b>
-							</h5>
-							<h6 class="margin-t-10">DECEMBER 2012 - MAY 2016</h6>
-							<p class="main-font margin-tb-30 underlined"> <a class="underlined" href="http://www.dphhs.mt.gov/">Montana
-								Department of Public Health and Human Services.</a></p>
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">IT
+													Consultant</h3>
+												<div class="resume-company-name ml-auto">Deloitte
+													Consulting, Mexico - Helena, MT</div>
+											</div>
+											<!--//row-->
+											<div class="resume-position-time">DECEMBER 2012 - MAY
+												2016</div>
+										</div>
+										<!--//resume-timeline-item-header-->
+										<div class="resume-timeline-item-desc">
+											<p align="justify">Java Developer assigned to the
+												SelfService Portal team in charge of providing production
+												support activities as well as developing and testing new
+												requirements.</p>
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
+											<!--<p>Cum sociis natoque penatibus et magnis dis parturient
+												montes, nascetur ridiculus mus. Donec quam felis, ultricies
+												nec, pellentesque eu, pretium quis, sem.</p>-->
 
-							<p class="main-font margin-tb-30">The  <a class="underlined" href="https://apply.mt.gov/"
-									target="_blank">Self Service Portal
-								(SSP) </a> is a Java WEB system that allows to the Montana Residents
-								request assistance for SNAP, TANAF and Medicaid and complete
-								their application online instead of go to an OPA and request for
-								assistance.</p>
+											<ul>
+												<li>Collaborated in a team-based, Agile environment to
+													accomplish objectives in a measured and open manner.</li>
+												<li>Performed production support activities resolving
+													at least 3 issues per week. This included analysis and
+													resolution of production issues in both the Self-Service
+													Portal and in CHIMES EA.</li>
+												<li>Resolved production issues in less than 24 hours of
+													their occurrence.</li>
 
-						 <ul class="list margin-b-30 main-font">
-							<li>Collaborated in a team-based, Agile environment to
-								accomplish objectives in a measured and open manner.</li>
-							<li>Performed production support activities resolving at
-								least 3 issues per week. This included analysis and resolution
-								of production issues in both the Self-Service Portal and in
-								CHIMES EA.</li>
-							<li>Resolved production issues in les than 24 hours of their
-								occurrence.</li>
+												<li>Delivered 14 assigned enhancements and defects
+													on-time and to a high-level of quality during the
+													construction phase for new release. This included the steps
+													of analysis, design, development and unit testing.</li>
 
-							<li>Delivered 14 assigned enhancements and defects on-time
-								and to a high-level of quality during the construction phase for
-								new release. This included the steps of analysis, design,
-								development and unit testing.</li>
-							<li>Communicated daily progress to track lead indicating
-								progress made against assignments.</li>
+											</ul>
 
-						</ul>
-						</div>
-						<!-- experience -->
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Technologies
+												used:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JAVA 6</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">EJB</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">WEBSPHERE</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JSP</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JAVASCRIPT</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">XML</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">ORACLE 10G</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">SVN</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JIRA</span></li>
+											</ul>
+										</div>
+										<!--//resume-timeline-item-desc-->
 
-						<div class="experience margin-b-50">
-							<h4>
-								<b>JAVA DEVELOPER</b>
-							</h4>
-							<h5 class="font-purple">
-								<b>QUALITY & KNOWLEDGE ON IT SERVICES - MEXICO CITY, MEXICO</b>
-							</h5>
-							<h6 class="margin-t-10">APRIL 2012 - NOVEMBER 2012</h6>
-							<p class="main-font margin-tb-30 "> <a class="underlined" href="http://www.bmv.com.mx/en">Bursatec. </a> - Bursatec is a
-								subsidiary company of financial systems that belongs to the
-								Mexican Stock Exchange (BMV) and the S.D. Indeval .</p>
+									</article>
+									<!--//resume-timeline-item-->
 
-							<p class="main-font margin-tb-30">The Supplies Manager its a
-								Java Web System that process plain text files placed in a
-								specific route and then place the files on another route using
-								camel framework. These files must be processed by phases and for
-								that, the system had a Scheduler and flag files to begin with
-								homework. In addition, the user had the responsibility to
-								managing those files manually in case there is any processing
-								error or an origin error.</p>
+									<article class="resume-timeline-item position-relative pb-5">
 
-							<ul class="list margin-b-30 main-font">
-							<li>Designed and updated layouts to meet usability and
-								performance requirements.</li>
-							<li>Consulted with customers to gather requirements and
-								discuss design choices.</li>
-							<li>Developed designs to meet specific requirements such as
-								quick-loading sites with layouts.</li>
-							<li>Produced web sites compatible with multiple browsers.</li>
-							<li>Coordinated with systems partners to finalize designs
-								and confirm requirements.</li>
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Java
+													Developer</h3>
+												<div class="resume-company-name ml-auto">Quality &
+													Knowledge on IT Services - Mexico City</div>
+											</div>
+											<!--//row-->
+											<div class="resume-position-time">APRIL 2012 - NOVEMBER
+												2012</div>
+										</div>
+										<!--//resume-timeline-item-header-->
+										<div class="resume-timeline-item-desc">
+											<p align="justify">Front End Developer.</p>
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
+											<!--<p>Cum sociis natoque penatibus et magnis dis parturient
+												montes, nascetur ridiculus mus. Donec quam felis, ultricies
+												nec, pellentesque eu, pretium quis, sem.</p>-->
 
-						</ul>
-						</div>
-						<!-- experience -->
+											<ul>
+												<li>Designed and updated layouts to meet usability and
+													performance requirements.</li>
+												<li>Consulted with customers to gather requirements and
+													discuss design choices.</li>
+												<li>Developed designs to meet specific requirements
+													such as quick-loading sites with layouts.</li>
+												<li>Produced web sites compatible with multiple
+													browsers.</li>
+												<li>Coordinated with systems partners to finalize
+													designs and confirm requirements.</li>
 
-						<div class="experience margin-b-50">
-							<h4>
-								<b>JAVA DEVELOPER</b>
-							</h4>
-							<h5 class="font-purple">
-								<b>LIGHTSOFT - MEXICO CITY, MEXICO</b>
-							</h5>
-							<h6 class="margin-t-10">AUGUST 2009 - MARCH 2012</h6>
-							<p class="underlined main-font margin-tb-30 ">
-								<a class="underlined" href="http://www.ibero.mx/">Universidad
-									Iberoamericana </a>, 
-									<a class="underlined"
-									href="http://www.femsa.com/en/femsa-businesses/companies/coca-cola-femsa/?field_business_unit_nid=87&country=58">Coca-Cola FEMSA </a>, 
-									<a
-									class="underlined" href="http://www.caepccm.df.gob.mx/066CDMX">CAEPCCM
-									CDMX </a>, 
-									<a class="underlined" href="https://www.elpalaciodehierro.com/">El
-									Palacio de Hierro.</a>
-							</p>
+											</ul>
 
-							<p class="main-font margin-tb-30">LightSoft is a company
-								dedicated to the development of technology solutions. Always
-								generating custom solutions in Software.</p>
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Technologies
+												used:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JAVA 5</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">MY FACES</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">FACELETS</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">TOMAHAWK</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">SPRING 3.0</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">HIBERNATE 3.1</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">ORACLE 10G</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">MAVEN 2</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">SVN</span></li>
+											</ul>
+										</div>
+										<!--//resume-timeline-item-desc-->
 
-						 <ul class="list margin-b-30 main-font">
+									</article>
+									<!--//resume-timeline-item-->
 
-							<li>Developed robust Java code for Web applications.</li>
-							<li>Developed Java code for 4 Blackberry applications.</li>
-							<li>Collaborated with clients from concept through final
-								delivery of product or service.</li>
-							<li>Directed on-site training for business users to maximize
-								productivity.</li>
-							
-						</ul>
-						</div>
-						<!-- experience -->
+									<article class="resume-timeline-item position-relative pb-5">
 
-						<div class="experience margin-b-50">
-							<h4>
-								<b>JUNIOR JAVA DEVELOPER</b>
-							</h4>
-							<h5 class="font-purple">
-								<b>ISMARTS - MEXICO CITY, MEXICO</b>
-							</h5>
-							<h6 class="margin-t-10">MARCH 2008 - JULY 2009</h6>
-							<p class="underlined main-font margin-tb-30 "> <a class="underlined" href="https://www.gob.mx/hacienda">Secretariat of
-								Finance and Public Credit - Mexico (SHCP). </a></p>
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Java
+													Developer</h3>
+												<div class="resume-company-name ml-auto">LightSoft -
+													Mexico City</div>
+											</div>
+											<!--//row-->
+											<div class="resume-position-time">AUGUST 2009 - MARCH
+												2012</div>
+										</div>
+										<!--//resume-timeline-item-header-->
+										<div class="resume-timeline-item-desc">
+											<p align="justify">Java Developer / Consultant.</p>
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
+											<!--<p>Cum sociis natoque penatibus et magnis dis parturient
+												montes, nascetur ridiculus mus. Donec quam felis, ultricies
+												nec, pellentesque eu, pretium quis, sem.</p>-->
 
-							<p class="main-font margin-tb-30">The Office for the Treasury
-								and Public Credit is the finance ministry of Mexico. In Mexico the Treasurer of the Republic is the head of the Office for the Treasury and Public Credit, and is a member of the federal executive cabinet and is named to the post by the President of the Republic. </p>
+											<ul>
+												<li>Developed robust Java code for Web applications.</li>
+												<li>Developed Java code for 4 Blackberry applications.</li>
+												<li>Collaborated with clients from concept through
+													final delivery of product or service.</li>
+												<li>Directed on-site training for business users to
+													maximize productivity.</li>
 
-						 <ul class="list margin-b-30 main-font">
+											</ul>
 
-							<li>Developed requirements along with senior developers.</li>
-							<li>Provided documentation for new requirements.</li>
-							<li>Documented customer requirements and project plans.</li>
-							<li>Created documentation using UML and BPMN.</ul>
-							
-						</div>
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Technologies
+												used:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JAVA 6</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">BLACKBERRY
+														API</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JSON</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">SPRING 2.5</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">MY SQL 5.5</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">APACHE TOMCAT</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">ORACLE 10G</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">STRUTS 2</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">AVATOR</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JBOSS 5</span></li>
+											</ul>
+										</div>
+										<!--//resume-timeline-item-desc-->
 
-						<!-- experience -->
+									</article>
+									<!--//resume-timeline-item-->
+
+									<article class="resume-timeline-item position-relative pb-5">
+
+										<div class="resume-timeline-item-header mb-2">
+											<div class="d-flex flex-column flex-md-row">
+												<h3 class="resume-position-title font-weight-bold mb-1">Junior
+													Java Developer</h3>
+												<div class="resume-company-name ml-auto">iSmarts -
+													Mexico City</div>
+											</div>
+											<!--//row-->
+											<div class="resume-position-time">MARCH 2008 - JULY
+												2009</div>
+										</div>
+										<!--//resume-timeline-item-header-->
+										<div class="resume-timeline-item-desc">
+											<p align="justify">Analyst / Developer Jr..</p>
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
+											<!--<p>Cum sociis natoque penatibus et magnis dis parturient
+												montes, nascetur ridiculus mus. Donec quam felis, ultricies
+												nec, pellentesque eu, pretium quis, sem.</p>-->
+
+											<ul>
+												<li>Developed requirements along with senior
+													developers.</li>
+												<li>Provided documentation for new requirements.</li>
+												<li>Documented customer requirements and project plans.</li>
+												<li>Created documentation using UML and BPMN.</li>
+
+											</ul>
+
+											<h4
+												class="resume-timeline-item-desc-heading font-weight-bold">Technologies
+												used:</h4>
+											<ul class="list-inline">
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">JAVA 5</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">MY FACES</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">TOMAHAWK</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">APACHE TOMCAT</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">ORACLE 10G</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">UML</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">BPMN</span></li>
+												<li class="list-inline-item"><span
+													class="badge badge-primary badge-pill">SVN</span></li>
+											</ul>
+										</div>
+										<!--//resume-timeline-item-desc-->
+
+									</article>
+									<!--//resume-timeline-item-->
+
+								</div>
+								<!--//resume-timeline-->
 
 
-					</div>
-					<!-- col-sm-8 -->
-				</div>
-				<!-- row -->
-			</div>
-			<!-- container -->
 
-		</section>
-		<!-- experience-section -->
-	</div>
-	
-	<div id="clients" class="border">
-	<section class="portfolio-section section">
-	<div  class="portfolioContainer">
-	
-		<div class="p-item ">
-				<a href="images/new/ND_DHS.jpg">
-					<img src="images/new/ND_DHS.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item">
-				<a href="images/new/MT_DPHHS.jpg" >
-					<img src="images/new/MT_DPHHS.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item ">
-				<a href="images/new/BMV.jpg" >
-					<img src="images/new/BMV.jpg" alt=""></a>
-			</div><!-- p-item -->
-	
-			<div class="p-item ">
-				<a href="images/new/CDMX.jpg" >
-					<img src="images/new/CDMX.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item  ">
-				<a href="images/new/IBERO.jpg" >
-					<img src="images/new/IBERO.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item ">
-				<a href="images/new/FEMSA.jpg" >
-					<img src="images/new/FEMSA.jpg" alt=""></a>
-			</div><!-- p-item -->
-	
-	
-		<div class="p-item ">
-				<a href="images/new/PH.jpg" >
-					<img src="images/new/PH.jpg" alt=""></a>
-			</div><!-- p-item -->
-			
-			<div class="p-item  ">
-				<a href="images/new/SHCP.jpg" >
-					<img src="images/new/SHCP.jpg" alt=""></a>
-			</div><!-- p-item -->
-		
-					
-	</div><!-- portfolioContainer -->
-	</section><!-- portfolio-section -->
-	</div>
 
-	<div id="education">
-		<section class="education-section section">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="heading">
-							<h3 style="font-family: Garamond;">
-								<b>Education</b>
-							</h3>
-							<h6 class="font-lite-black">
-								<b>ACADEMIC CAREER</b>
-							</h6>
-						</div>
-					</div>
-					<!-- col-sm-4 -->
-					<div class="col-sm-8">
-						<div class="education-wrapper">
-							<div class="education margin-b-50">
-								<h4>
-									<b>BACHELOR OF SCIENCE: COMPUTER SCIENCE AND ENGINEERING</b>
-								</h4>
-								<h5 class="font-purple">
-									<b>Universidad ETAC - Mexico City, Mexico</b>
-								</h5>
-								<h6 class="font-lite-black margin-t-10">GRADUATED IN AUGUST
-									2006</h6>
+
 
 							</div>
-							<!-- education -->
-
-							<div class="education margin-b-50">
-								<h4>
-									<b>ORACLE CERTIFIED PROFESSIONAL, JAVA SE 6 PROGRAMMER</b>
-								</h4>
-								<h5 class="font-purple">
-									<b>Mexico City, Mexico</b>
-								</h5>
-
-							</div>
-							<!-- education -->
-
-
-						</div>
-						<!-- education-wrapper -->
+						</section>
+						<!--//experience-section-->
 					</div>
-					<!-- col-sm-8 -->
+					<div class="col-lg-3">
+						<section class="resume-section skills-section mb-5">
+							<h2
+								class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills
+								&amp; Tools</h2>
+							<div class="resume-section-content">
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Front-end</h4>
+									<ul class="list-unstyled mb-4">
+										<li class="mb-2">
+											<div class="resume-skill-name">jQuery</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 80%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">Java Server Faces</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 50%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">JavaScript</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 80%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+
+										<!--<li class="mb-2">
+											<div class="resume-skill-name">Node.js</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 92%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>-->
+										<li class="mb-2">
+											<div class="resume-skill-name">HTML/CSS</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 96%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<!--//resume-skill-item-->
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Back-end</h4>
+									<ul class="list-unstyled">
+										<li class="mb-2">
+											<div class="resume-skill-name">Java</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 95%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">C#</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 70%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<li class="mb-2">
+											<div class="resume-skill-name">XML</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 95%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>
+										<!--<li class="mb-2">
+											<div class="resume-skill-name">WordPress/Shopify</div>
+											<div class="progress resume-progress">
+												<div class="progress-bar theme-progress-bar-dark"
+													role="progressbar" style="width: 82%" aria-valuenow="25"
+													aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</li>-->
+									</ul>
+								</div>
+								<!--//resume-skill-item-->
+
+								<div class="resume-skill-item">
+									<h4 class="resume-skills-cat font-weight-bold">Others</h4>
+									<ul class="list-inline">
+										<li class="list-inline-item"><span
+											class="badge badge-light">SDLC</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">DevOps</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">Agile</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">Code Review</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">JIRA</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">Unit Testing</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">SVN</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">Storyboarding</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">PL/SQL</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">NetBeans</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">Eclipse</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">UML</span></li>
+										<li class="list-inline-item"><span
+											class="badge badge-light">BPMN</span></li>
+									</ul>
+								</div>
+								<!--//resume-skill-item-->
+							</div>
+							<!--resume-section-content-->
+						</section>
+						<!--//skills-section-->
+						<section class="resume-section education-section mb-5">
+							<h2
+								class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+							<div class="resume-section-content">
+								<ul class="list-unstyled">
+									<!--<li class="mb-2">
+										<div class="resume-degree font-weight-bold">MSc in
+											Computer Science</div>
+										<div class="resume-degree-org">University College London</div>
+										<div class="resume-degree-time">2010 - 2011</div>
+									</li>-->
+									<li>
+										<div class="resume-degree font-weight-bold">BSc Computer
+											Science and Engineering</div>
+										<div class="resume-degree-org">Universidad ETAC - Mexico</div>
+										<div class="resume-degree-time">2003 - 2006</div>
+									</li>
+								</ul>
+							</div>
+						</section>
+						<!--//education-section-->
+						<section class="resume-section reference-section mb-5">
+							<h2
+								class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Certifications</h2>
+							<div class="resume-section-content">
+								<ul class="list-unstyled resume-awards-list">
+									<li class="mb-2 pl-4 position-relative"><i
+										class="resume-award-icon fas fa-trophy position-absolute"
+										data-fa-transform="shrink-2"></i>
+										<div class="resume-award-name">Oracle Certified
+											Professional, Java SE 6 Programmer</div>
+										<div data-iframe-width="150" data-iframe-height="270"
+											data-share-badge-id="b68b1c76-cc49-42fd-ae22-b99b78f7d794"></div>
+										<script type="text/javascript">
+											(function() {
+												var s = document.createElement('script');
+												s.type = 'text/javascript';
+												s.async = true;
+												s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+												var o = document.getElementsByTagName('script')[0];
+												o.parentNode.insertBefore(s, o);
+											})();
+										</script></li>
+									<!--<li class="mb-0 pl-4 position-relative"><i
+										class="resume-award-icon fas fa-trophy position-absolute"
+										data-fa-transform="shrink-2"></i>
+										<div class="resume-award-name">Award Name Ipsum</div>
+										<div class="resume-award-desc">Award desc goes here,
+											ultricies nec, pellentesque.</div></li>-->
+								</ul>
+							</div>
+						</section>
+						<!--//interests-section-->
+						<section class="resume-section language-section mb-5">
+							<h2
+								class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+							<div class="resume-section-content">
+								<ul class="list-unstyled resume-lang-list">
+									<li class="mb-2"><span
+										class="resume-lang-name font-weight-bold">English</span> <small
+										class="text-muted font-weight-normal">(Professional)</small></li>
+									<li><span class="resume-lang-name font-weight-bold">Spanish</span>
+										<small class="text-muted font-weight-normal">(Native)</small></li>
+								</ul>
+							</div>
+						</section>
+						<!--//language-section-->
+						<section class="resume-section interests-section mb-5">
+							<h2
+								class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+							<div class="resume-section-content">
+								<ul class="list-unstyled">
+									<li class="mb-1">Photography</li>
+									<li class="mb-1">Graphic Design</li>
+									<li class="mb-1">Cooking</li>
+								</ul>
+							</div>
+						</section>
+						<!--//interests-section-->
+
+					</div>
 				</div>
-				<!-- row -->
+				<!--//row-->
 			</div>
-			<!-- container -->
-
-		</section>
-		<!-- about-section -->
-	</div>
-
-	<div>
-		<footer>
-			<div class="copyright">
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				Copyright &copy;
-				<script>document.write(new Date().getFullYear());
-				</script>
-				All rights reserved | This template is made with <i
-					class="ion-heart" aria-hidden="true"></i> by <a
-					href="https://colorlib.com" target="_blank">Colorlib</a>
-				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			</div>
+			<!--//resume-body-->
 
 
-		</footer>
-	</div>
-
-	<!-- SCIPTS -->
+		</div>
+	</article>
 
 
-	<script src="common-js/jquery-3.2.1.min.js"></script>
+	<footer class="footer text-center pt-2 pb-5">
+		<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+		<small class="copyright">Designed with <i class="fas fa-heart"></i>
+			by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying
+				Riley</a> for developers
+		</small>
+	</footer>
 
-	<script src="common-js/tether.min.js"></script>
-
-	<script src="common-js/bootstrap.js"></script>
-
-	<script src="common-js/isotope.pkgd.min.js"></script>
-
-	<script src="common-js/jquery.waypoints.min.js"></script>
-
-	<script src="common-js/progressbar.min.js"></script>
-
-	<script src="common-js/jquery.fluidbox.min.js"></script>
-
-	<!--<script src="common-js/jquery-ui.min.js"></script>
-	
-	<script src="common-js/jquery.ba-throttle-debounce.min.js"></script>-->
-
-	<script src="common-js/scripts.js"></script>
 
 
 </body>
 </html>
+
+
